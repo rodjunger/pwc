@@ -27,7 +27,7 @@ go build
 3. Execute o programa com os argumentos corretos:
 
 ```shell
-./challanges [número_do_desafio] [entrada_do_desafio]
+./pwc [número_do_desafio] [entrada_do_desafio]
 ```
 
 Certifique-se de substituir `[número_do_desafio]` pelo número correspondente ao desafio que deseja executar e `[entrada_do_desafio]` pela entrada apropriada para o desafio selecionado.
