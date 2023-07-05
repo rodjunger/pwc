@@ -15,7 +15,7 @@ go test ./...
 1. Clone o repositório:
 
 ```shell
-git clone github.com/rodjunger/pwc/challanges
+git clone github.com/rodjunger/pwc
 ```
 
 2. Compile o programa:
