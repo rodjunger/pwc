@@ -1,9 +1,7 @@
-package pwc_test
+package pwc
 
 import (
 	"testing"
-
-	pwc "github.com/rodjunger/pwc/challanges"
 )
 
 func TestRemoveDuplicateLetters(t *testing.T) {
@@ -20,7 +18,7 @@ func TestRemoveDuplicateLetters(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		result := pwc.RemoveDuplicateLetters(test.input)
+		result := RemoveDuplicateLetters(test.input)
 		if result != test.expected {
 			t.Errorf("Input: '%s', Expected: '%s', Result: '%s'", test.input, test.expected, result)
 		}

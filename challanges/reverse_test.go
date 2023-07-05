@@ -1,9 +1,7 @@
-package pwc_test
+package pwc
 
 import (
 	"testing"
-
-	pwc "github.com/rodjunger/pwc/challanges"
 )
 
 func TestReverseWordOrder(t *testing.T) {
@@ -18,7 +16,7 @@ func TestReverseWordOrder(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		result := pwc.ReverseWordOrder(test.input)
+		result := ReverseWordOrder(test.input)
 		if result != test.expected {
 			t.Errorf("Input: '%s', Expected: '%s', Result: '%s'", test.input, test.expected, result)
 		}
