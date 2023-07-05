@@ -13,7 +13,7 @@ func TestCapitalizeFirstLetter(t *testing.T) {
 		{"world", "World"},
 		{"123", "123"},
 		{"", ""},
-		{"ab cd ef", "Ab Cd Ef"},
+		{"ab cd ef", "Ab cd ef"},
 	}
 
 	for _, test := range tests {
