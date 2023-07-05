@@ -1,4 +1,4 @@
-package pwc
+package challanges
 
 func isPalindrome(in string) bool {
 	stringLength := len(in)

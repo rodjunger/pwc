@@ -1,4 +1,4 @@
-package pwc
+package challanges
 
 // RemoveDuplicateLetters remove todas as letras duplicadas de uma string
 func RemoveDuplicateLetters(in string) string {

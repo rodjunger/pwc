@@ -1,4 +1,4 @@
-package pwc
+package challanges
 
 // IsAnagramOfPalindrome retorna "true" se a string in pode ser rescrita como um palindromo, e "false" caso contrário
 // A ideia é simplesmente contar o numero de caracteres com quantidade impar na string, se tivermos mais de um,

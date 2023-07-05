@@ -1,4 +1,4 @@
-package pwc
+package challanges
 
 import "strings"
 
